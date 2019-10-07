@@ -10,7 +10,7 @@ We also provide some nice visualizations for comparing one or two translations i
 And here is a similar plot for Mitchell 1988
 ![Frequency Plot for DC Lau 1963](https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/NN_JJ_VB_squarify_mitchell.png)
 
-What if you wanted to compare them both?
+What if you wanted to compare their word choices more directly?
 ![Frequency Plot for Mitchell vs DC Lau 1963](https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/dclau_mitchell_freq_comparison.png)
 
 
