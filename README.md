@@ -1,8 +1,8 @@
 # The Tao Te Ching: An NLP Perspective
 
-This repo contains code for analyzing over 170 translations of the Dao De Jing (Tao Te Ching) using natural language processing. we use [GloVe](https://nlp.stanford.edu/projects/glove/) embeddings to cluster translations with similar interpretations together and to find representative translations. We also identify chapters with controversial translations that vary considerably between authors and others with standrd translations that are consistent among authors.
+This repo contains code for analyzing over 170 translations of the Dao De Jing (Tao Te Ching) using natural language processing. We use [GloVe](https://nlp.stanford.edu/projects/glove/) word vectors to cluster translations into groups with similar interpretations and find representative translations. We also identify chapters with controversial translations that vary considerably between authors and others with standard translations that are consistent among authors.
 
-We hope that this script will inspire similar analysis of other religious and philosophical texts using computational tools.
+We hope that this project will inspire similar analysis of other religious and philosophical texts using computational tools.
 
 We also provide some nice visualizations for comparing one or two translations in more depth. For example, here is word frequency plot for DC Lau 1963
 ![Frequency Plot for DC Lau 1963](https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/NN_JJ_VB_squarify_dclau.png)
