@@ -1,8 +1,17 @@
 # The Tao Te Ching: An NLP Perspective
 
-This repo contains code for analyzing over 170 translations of the Dao De Jing (Tao Te Ching) using natural language processing tools. It contains some nice visualizations for exploring specific translations in depth (we look at D.C. Lau 1963 and Stephen Mitchell 1988). It also contains code, for comparing hundreds of translations against one another. For example, we use [GloVe](https://nlp.stanford.edu/projects/glove/) embeddings to cluster translations in representative groups. We also identify chapters with controversial translations that vary considerably between authors and others with standrd translations that are consistent among authors.
+This repo contains code for analyzing over 170 translations of the Dao De Jing (Tao Te Ching) using natural language processing. we use [GloVe](https://nlp.stanford.edu/projects/glove/) embeddings to cluster translations with similar interpretations together and to find representative translations. We also identify chapters with controversial translations that vary considerably between authors and others with standrd translations that are consistent among authors.
 
 We hope that this script will inspire similar analysis of other religious and philosophical texts using computational tools.
+
+We also provide some nice visualizations for comparing one or two translations in more depth. For example, here is word frequency plot for DC Lau 1963
+![Frequency Plot for DC Lau 1963](https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/NN_JJ_VB_squarify_dclau.png)
+
+And here is a similar plot for Mitchell 1988
+![Frequency Plot for DC Lau 1963](https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/NN_JJ_VB_squarify_mitchell.png)
+
+What if you wanted to compare them both?
+![Frequency Plot for Mitchell vs DC Lau 1963](https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/dclau_mitchell_freq_comparison.png)
 
 
 ## Usage
