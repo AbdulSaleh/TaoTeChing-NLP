@@ -21,4 +21,4 @@ The notebook `scrape.ipynb` contains code for scarping html pages that contain t
 
 
 ## Questions?
-Feel free to reach out to me if you have any questions. This is [my website](abdulsaleh.github.io) and it has my contact info.
+Feel free to reach out to me if you have any questions. This is [my website](https://abdulsaleh.github.io) and it has my contact info.
